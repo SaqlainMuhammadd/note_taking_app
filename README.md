@@ -1,8 +1,3 @@
-Great! Here is the complete `README.md` file with your name and GitHub username included:
-
-## README.md
-
-```markdown
 # Note-Taking App
 
 A simple note-taking application built with Flutter where users can add, edit, and delete notes.
@@ -51,62 +46,51 @@ The app is designed with a clean and intuitive user interface and ensures the pe
    ```bash
    git clone https://github.com/saqlainmuhammadd/note_taking_app.git
    cd note_taking_app
-   ```
+Get the dependencies:
 
-2. **Get the dependencies:**
+bash
+Copy code
+flutter pub get
+Run the app:
 
-   ```bash
-   flutter pub get
-   ```
+bash
+Copy code
+flutter run
+Usage
+Launch the app:
 
-3. **Run the app:**
+The splash screen will be displayed initially.
+After a short delay, you will be navigated to the main screen displaying the list of notes.
+Add a note:
 
-   ```bash
-   flutter run
-   ```
+Tap on the floating action button with a + icon.
+Fill in the title and content of the note.
+Tap the 'Add' button to save the note.
+Edit a note:
 
-## Usage
+Tap on an existing note in the list.
+Update the title and content.
+Tap the 'Save' button to update the note.
+Delete a note:
 
-1. **Launch the app:**
-   - The splash screen will be displayed initially.
-   - After a short delay, you will be navigated to the main screen displaying the list of notes.
+Tap the delete icon (trash can) next to the note you want to delete.
+Confirm the deletion in the dialog.
+Screenshots
 
-2. **Add a note:**
-   - Tap on the floating action button with a `+` icon.
-   - Fill in the title and content of the note.
-   - Tap the 'Add' button to save the note.
 
-3. **Edit a note:**
-   - Tap on an existing note in the list.
-   - Update the title and content.
-   - Tap the 'Save' button to update the note.
 
-4. **Delete a note:**
-   - Tap the delete icon (trash can) next to the note you want to delete.
-   - Confirm the deletion in the dialog.
 
-## Screenshots
-
-![Splash Screen](screenshots/splash_screen.png)
-![Note List Screen](screenshots/note_list_screen.png)
-![Add Note Screen](screenshots/add_note_screen.png)
-![Edit Note Screen](screenshots/edit_note_screen.png)
-
-## Contributing
-
+Contributing
 Contributions are welcome! Here’s how you can contribute:
 
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes.
-4. Commit your changes (`git commit -m 'Add some feature'`).
-5. Push to the branch (`git push origin feature-branch`).
-6. Open a pull request.
+Fork the repository.
+Create a new branch (git checkout -b feature-branch).
+Make your changes.
+Commit your changes (git commit -m 'Add some feature').
+Push to the branch (git push origin feature-branch).
+Open a pull request.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Tags
-
+Tags
 flutter, dart, note-taking, sqlite, local-storage, mobile-app, android, ios, splash-screen
