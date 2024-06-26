@@ -3,8 +3,6 @@ import 'package:note_taking_app/db_helper.dart';
 import 'package:note_taking_app/note.dart';
 import 'dart:async';
 
-import 'package:note_taking_app/splash.dart';
-
 void main() {
   runApp(NoteTakingApp());
 }
@@ -23,10 +21,11 @@ class MyApp extends StatelessWidget {
                   fontSize: 20.0,
                   fontWeight: FontWeight.bold,
                   color: Colors.white)),
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
+          colorScheme:
+              ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 255, 251, 0)),
           useMaterial3: true,
-          appBarTheme: AppBarTheme(backgroundColor: Colors.teal)),
-      home: SplashScreen(),
+          appBarTheme: AppBarTheme(backgroundColor: Colors.amberAccent)),
+      home: NoteTakingApp(),
     );
   }
 }
@@ -37,9 +36,6 @@ class NoteTakingApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Note Taking App',
-      theme: ThemeData(
-        primarySwatch: Colors.yellow,
-      ),
       home: NoteListScreen(),
     );
   }
